@@ -1,9 +1,10 @@
+import math
 
 # variables
-var = 10 #int
-v2 = 10.1 #float
-name = 'rishi' #string
-is_published = True #boolean
+var = 10  # int
+v2 = 10.1  # float
+name = 'rishi'  # string
+is_published = True  # boolean
 
 # Exercise - John Smith, new, 20 year old patient
 patient = "John Smith"
@@ -16,7 +17,7 @@ print('Hi ' + n)
 
 # Type conversion
 birth_year = input('Birth Year: ')
-age = 2022 - int(birth_year) #cast the str to int
+age = 2022 - int(birth_year)  # cast the str to int
 print(age)
 print(type(age))
 # float()
@@ -27,14 +28,59 @@ print(type(age))
 course = "Python for Beginners"
 mult = ''' Hi Rishi 
 This is how to write a string on multiple lines'''
-print(course[0]) #Index into the first character of the string
-print(course[-1]) #Index into the last character of the string
-print(course[0:3]) #Index into characters up to but not including end index
+print(course[0])  # Index into the first character of the string
+print(course[-1])  # Index into the last character of the string
+print(course[0:3])  # Index into characters up to but not including end index
 print(course[5:] + course[0:5])
-copy = course[:] #Copying a string
+copy = course[:]  # Copying a string
 
 # Formatted strings
 first = "Rishi"
 last = "Vaidya"
-msg  = f'{first} [{last}] is a coder'
+msg = f'{first} [{last}] is a coder'
+
+# String Methods
+length = len(course)  # length of variable - general purpose
+    # course. - will show all methods for strings
+    # Method - functions that belong to objects
+    # upper, lower, find, replace
+    # in operator produces boolean response
+
+# Arithmetic Operators
+    # + - * / // % **
+    # +=
+x = -5.5
+y = abs(x)
+    # Import math module to write complex arithmetic functions
+    # This makes math an object, so we can access using math.
+
+# If Statements
+price = 100000
+has_good_credit = True
+if has_good_credit:
+    down_payment = 0.1 * price
+elif not has_good_credit:
+    down_payment = 0.2 * price
+else:
+    print('Have a good day')
+
+# Logical operators
+    # and, not, or
+# Comparison operators
+    # <, >, ==, !=
+
+# Exercise
+name = "Rishi Vaidya"
+if len(name) < 3:
+    print('Name is too short')
+elif len(name) > 50:
+    print('Name is too long')
+else:
+    print('Name looks good')
+
+
+
+
+
+
 
