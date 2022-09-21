@@ -65,7 +65,7 @@ else:
     print('Have a good day')
 
 # Logical operators
-    # and, not, or
+    # and, not, or, in
 # Comparison operators
     # <, >, ==, !=
 
@@ -84,6 +84,46 @@ i = 1
 while i <= 5:
     print(i)
     i += 1
+
+
+# For Loops
+for item in 'Python':
+    # Iterartes through string
+    print(item)
+for item in [1, 2, 3]:  # List is defined by []
+    print(item)
+    # range(10) creates an object of numbers from 0 - 9
+    # range(lower, upper, step)
+
+# Nested For Loops
+for x in range(4):
+    for y in range(3):
+        print(f'({x}, {y})')
+
+# Lists
+names = ['Rishi', 'Steve', 'Jeff', 'Mike']
+# names[0] accesses Rishi
+# names[2:] accesses Jeff and Mike
+
+# 2D Lists
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8 ,9]
+]
+# matrix[0][2] accesses 3
+
+# List Methods
+L = [5, 2, 1, 7, 4]
+# access using .method()
+L.append(20)
+L.insert(3, 20)
+# 50 in L - in operator checks for existence in list
+# .sort() .reverse() .index() .copy() .remove() .clear() .pop()
+
+# Tuples - used to store list of items - cannot be modified (immutable)
+T = (1, 2, 3)
+x, y, z = T  # Unpacking Tuple
 
 
 
