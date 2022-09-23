@@ -126,7 +126,18 @@ T = (1, 2, 3)
 x, y, z = T  # Unpacking Tuple
 
 
+# Dictionaries - store information that comes in key value pairs
+customer =  {
+    "name": "Rishi Vaidya ",
+    "age":  30,
+    "is_verified": True
+}
+# customer.get("key")
+# customer["birthdate"] = "September 15 2000"
 
+# Functions
+# def function_name(input_parameter):
+# call by running - function_name(input)
 
 
 
