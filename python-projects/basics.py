@@ -1,4 +1,6 @@
 import math
+from example_package import shipping
+
 
 # variables
 var = 10  # int
@@ -138,6 +140,31 @@ customer =  {
 # Functions
 # def function_name(input_parameter):
 # call by running - function_name(input)
+# keyword argument - first_name="rishi" - can be put as parameter in any order when calling a function
+    # Useful for numerical input ex total_cost('Rishi', 'Vaidya', tax=0.7)
+    # return statement
+
+# Exceptions
+try:
+    age = int(input('Age: '))
+    print(age)
+except ValueError:
+    print('Invalid value')
+    # When various types of errors are thrown, use try except blocks to handle exceptions raised by programs
+
+# Classes
+    # visit classes_examlple.py
+    # concepts - classes, objects, attributes, inheritance
+
+# Modules
+    # Python files to break up and organize code
+    # Import into main app.py file using import module_name
+    # or - from module import method
+
+# Packages - code organization to contain modules
+# from package.module import method
+# from package import module 
+shipping.calc_shipping()
 
 
 

@@ -1,17 +1,26 @@
 
-def emoji_converter(emojis_dict):
-    message = input('>')
-    output = ''
-    words = message.split(' ')
-    for word in words :
-     output += emojis.get(word, word) + " "
-    print(output)
+def emoji_converter(input_message):
+    try:
+        emojis = {
+            ":)": "😀",
+            ":(": "☹️"
+        }
+        output = ''
+        words = message.split(' ')
+        for word in words:
+            output += emojis.get(word, word) + " "
+    except ValueError:
+        output = 'Invalid Value'
+
+    return output
 
 
-emojis = {
-    ":)": "😀",
-    ":(": "☹️"
-}
+def square(number):
+    return number * number
 
-emoji_converter(emojis)
+
+
+message = input('>')
+converted = emoji_converter(message)
+squared = square(4)
 
