@@ -166,6 +166,10 @@ except ValueError:
 # from package import module 
 shipping.calc_shipping()
 
+# pypi - to find and install packages
+# pip install
+
+
 
 
 
