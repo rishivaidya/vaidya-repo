@@ -1,0 +1,18 @@
+# Steps
+# Import data - csv file
+# Clean the data
+# Split data into training/test sets
+# Create a model
+# Train model
+# Make predictions
+# Evaluate and improve
+
+# Libraries
+# Numpy
+# Pandas
+# MatPlotLib
+# Scikit-Learn
+# Graphvis for vscode to visual dot files
+
+# Use Jupyter to make viewing data easier
+# Use Kaggle to get large data sets
